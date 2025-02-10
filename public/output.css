@@ -1648,6 +1648,10 @@
   .align-top {
     vertical-align: top;
   }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
+  }
   .text-\[10px\] {
     font-size: 10px;
   }
