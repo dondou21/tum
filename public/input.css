@@ -1,1 +1,10 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+.news_image {
+    @apply w-80 h-50 relative
+}
+
+.title {
+    @apply text-gray-900 bg-white w-20 pl-2 absolute -mt-6 pt-0.5
+}
