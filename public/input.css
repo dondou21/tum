@@ -8,3 +8,6 @@
 .title {
     @apply text-gray-900 bg-white w-20 pl-2 absolute -mt-6 pt-0.5
 }
+.event_box {
+    @apply grid items-center mt-16
+}
