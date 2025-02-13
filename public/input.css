@@ -11,3 +11,11 @@
 .event_box {
     @apply grid items-center mt-6  
 }
+
+.offer_list {
+    @apply bg-blue-200 hover:bg-white p-3 
+}
+
+.active {
+    @apply bg-white
+}
