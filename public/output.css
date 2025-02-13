@@ -701,6 +701,15 @@
   .mt-1 {
     margin-top: calc(var(--spacing) * 1);
   }
+  .mt-6 {
+    margin-top: calc(var(--spacing) * 6);
+  }
+  .mt-7 {
+    margin-top: calc(var(--spacing) * 7);
+  }
+  .mt-8 {
+    margin-top: calc(var(--spacing) * 8);
+  }
   .mt-10 {
     margin-top: calc(var(--spacing) * 10);
   }
@@ -713,14 +722,26 @@
   .mt-16 {
     margin-top: calc(var(--spacing) * 16);
   }
+  .mt-18 {
+    margin-top: calc(var(--spacing) * 18);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
+  .ml-0 {
+    margin-left: calc(var(--spacing) * 0);
+  }
   .ml-3 {
     margin-left: calc(var(--spacing) * 3);
+  }
+  .ml-8 {
+    margin-left: calc(var(--spacing) * 8);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
   }
   .ml-16 {
     margin-left: calc(var(--spacing) * 16);
@@ -821,6 +842,21 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
+  .h-8 {
+    height: calc(var(--spacing) * 8);
+  }
+  .h-9 {
+    height: calc(var(--spacing) * 9);
+  }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
+  .h-12 {
+    height: calc(var(--spacing) * 12);
+  }
+  .h-20 {
+    height: calc(var(--spacing) * 20);
+  }
   .h-24 {
     height: calc(var(--spacing) * 24);
   }
@@ -844,6 +880,12 @@
   }
   .w-1\/2 {
     width: calc(1/2 * 100%);
+  }
+  .w-10 {
+    width: calc(var(--spacing) * 10);
+  }
+  .w-20 {
+    width: calc(var(--spacing) * 20);
   }
   .w-80 {
     width: calc(var(--spacing) * 80);
@@ -1495,9 +1537,6 @@
   .bg-orange-400 {
     background-color: var(--color-orange-400);
   }
-  .bg-orange-500 {
-    background-color: var(--color-orange-500);
-  }
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
@@ -1694,9 +1733,6 @@
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
-  .p-10 {
-    padding: calc(var(--spacing) * 10);
-  }
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
@@ -1735,6 +1771,9 @@
   }
   .pb-24 {
     padding-bottom: calc(var(--spacing) * 24);
+  }
+  .pl-7 {
+    padding-left: calc(var(--spacing) * 7);
   }
   .pl-70 {
     padding-left: calc(var(--spacing) * 70);
@@ -2358,6 +2397,16 @@
   }
   .transform-view {
     transform-box: view-box;
+  }
+  .default\:hidden {
+    &:default {
+      display: none;
+    }
+  }
+  .sm\:hidden {
+    @media (width >= 40rem) {
+      display: none;
+    }
   }
 }
 .news_image {
