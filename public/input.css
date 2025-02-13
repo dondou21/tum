@@ -2,7 +2,7 @@
 @tailwind utilities;
 
 .news_image {
-    @apply w-80 h-50 relative
+    @apply w-[600px] h-96 relative
 }
 
 .title {
